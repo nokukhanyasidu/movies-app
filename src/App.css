@@ -1,5 +1,5 @@
 .navbar{
-  background: linear-gradient(60deg, indigo 10%,purple 35%,pink 90%);
+  background: linear-gradient(60deg, grey 10%,orange 35%);
 }
 .nav-item{
  color: white;
@@ -8,6 +8,8 @@
 .HomeHeader{
   margin-top: 250px;
 font-family: cursive;
+font-weight: bolder;
+font-size: 250;
  
 } 
 .header{
@@ -22,7 +24,7 @@ font-family: cursive;
   width: 10%;
   font-size: 18px;
   margin-top: 150px;
-  background: purple;
+  background: orange;
   color: black;
   justify-content: center;
 }
