@@ -16,10 +16,10 @@ const Navigation = () => {
         <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Popular Movies</a>
+        <a className="nav-link" href="/PopularMovies">Popular Movies</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link " href="#">About the Developer</a>
+        <a className="nav-link " href="/Developer">About the Developer</a>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
