@@ -1,6 +1,11 @@
 .navbar{
-  background: linear-gradient(60deg, grey 10%,orange 35%);
+  background: linear-gradient(60deg, rgb(61, 60, 60) 10%,orange 35%);
 }
+.navbar-brand{
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+} 
 .nav-item{
  color: white;
   font-size: larger;
@@ -27,4 +32,10 @@ font-size: 250;
   background: orange;
   color: black;
   justify-content: center;
+}
+.pmHeader{
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

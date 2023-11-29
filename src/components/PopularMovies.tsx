@@ -7,9 +7,10 @@ const PopularMovies = () => {
 
     <>
     
-    <h1>Popular Movies</h1>
-    <Row xs={1} md={1} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
+    <h1 className='pmHeader'>Popular Movies</h1>
+
+    <Row xs={1} md={4} className="g-4">
+      {Array.from({ length: 12 }).map((_, idx) => (
         <Col key={idx}>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
@@ -24,9 +25,9 @@ const PopularMovies = () => {
           </Card>
         </Col>
           ))}
-          </Row>
+    </Row>
       </>
-  )
+  );
 }
 
 export default PopularMovies;
